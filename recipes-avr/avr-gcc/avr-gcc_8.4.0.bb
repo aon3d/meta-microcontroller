@@ -15,7 +15,7 @@ inherit autotools gettext texinfo
 
 BBCLASSEXTEND = "native"
 
-DEPENDS = " \
+DEPENDS += " \
     avr-binutils \
  	zlib \
     gawk \

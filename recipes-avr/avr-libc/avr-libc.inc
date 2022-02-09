@@ -9,7 +9,7 @@ HOST_SYS = "avr"
 
 inherit avr-toolchain-base autotools gettext texinfo
 
-DEPENDS = " \
+DEPENDS += " \
  	zlib-native \
     gawk-native \
     gmp-native \
